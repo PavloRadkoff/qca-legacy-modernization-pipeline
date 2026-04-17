@@ -1,0 +1,8 @@
+{
+  "domain": "Payroll",
+  "intent": "IncreaseSalary",
+  "rules": [
+    { "condition": "Employee exists", "action": "Multiply base salary by 1.1" }
+  ],
+  "legacy_tech_debt_flag": "High"
+}

@@ -1,0 +1,6 @@
+* VISUAL FOXPRO 9.0 PAYROLL SCRIPT
+USE employees SHARED
+LOCATE FOR emp_id = m.SearchId
+IF FOUND()
+  REPLACE salary WITH salary * 1.1
+ENDIF
