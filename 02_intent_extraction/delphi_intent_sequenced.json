@@ -1,0 +1,11 @@
+{
+  "domain": "Invoicing",
+  "process": "CalculateVAT",
+  "data_inputs": ["SubTotal", "Discount", "IsExport"],
+  "business_rules": [
+    { "rule_id": 1, "logic": "If IsExport is true, TaxRate is 0%, else 20%" },
+    { "rule_id": 2, "logic": "Tax is calculated on (SubTotal - Discount)" },
+    { "rule_id": 3, "logic": "Tax cannot be negative" }
+  ],
+  "legacy_artifacts_removed": ["TButton.Click", "StrToFloat", "ShowMessage", "UI Forms"]
+}

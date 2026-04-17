@@ -1,0 +1,10 @@
+{
+  "domain": "Accounting",
+  "process": "AssetDepreciation",
+  "data_inputs": ["cost", "current_val"],
+  "business_rules": [
+    { "rule_id": 1, "logic": "Calculate base depreciation as 15% of cost" },
+    { "rule_id": 2, "logic": "Ensure depreciated value is not less than salvage value (100)" }
+  ],
+  "legacy_artifacts_removed": ["USE DB", "SCAN", "REPLACE"]
+}
