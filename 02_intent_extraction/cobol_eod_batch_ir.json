@@ -1,0 +1,38 @@
+{
+  "qca_ir_version": "1.2",
+  "source_metadata": {
+    "original_lang": "COBOL 85",
+    "module": "EOD-BATCH-PROC",
+    "architecture_pattern": "Sequential File Processing"
+  },
+  "domain_context": "Core Banking / EOD",
+  "extracted_intents": [
+    {
+      "intent_id": "UpdateAccountBalance",
+      "type": "BusinessLogic",
+      "dependencies": ["AccountStatus"],
+      "rules": [
+        {
+          "condition": "AccountStatus == 'FROZEN'",
+          "action": "Reject transaction, Log to Audit"
+        },
+        {
+          "condition": "TransactionType == 'DEPOSIT'",
+          "operation": "Balance += Amount"
+        },
+        {
+          "condition": "TransactionType IN ('WITHDRAWAL', 'FEE')",
+          "operation": "Balance -= Amount"
+        },
+        {
+          "condition": "Balance < 0 POST-CALCULATION",
+          "action": "Trigger Overdraft Alert Event"
+        }
+      ]
+    }
+  ],
+  "infrastructure_migration_target": {
+    "legacy_data_source": "VSAM / ISAM Files",
+    "modern_target": "PostgreSQL Transactional Updates (EF Core)"
+  }
+}
