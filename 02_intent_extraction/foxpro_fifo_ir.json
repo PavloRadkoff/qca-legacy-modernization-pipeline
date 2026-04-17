@@ -1,0 +1,25 @@
+{
+  "qca_ir_version": "1.3",
+  "source_metadata": {
+    "original_lang": "Visual FoxPro 6.0",
+    "module": "FIFO-COGS-CALC"
+  },
+  "domain_context": "Supply Chain / Inventory Valuation",
+  "extracted_intents": [
+    {
+      "intent_id": "CalculateFifoCogs",
+      "type": "AlgorithmicProcess",
+      "dependencies": ["Sales", "Receipts", "MasterInventory"],
+      "algorithm_steps": [
+        "Iterate unprocessed Sales",
+        "Find available Receipts for Item, ORDER BY Date ASC (FIFO constraint)",
+        "Consume Receipt quantities until Sale quantity is 0",
+        "Accumulate (Consumed Qty * Unit Price) into Total COGS",
+        "Decrement Receipt Available Qty",
+        "Mark Sale as processed with Total COGS",
+        "Decrement Master Inventory Total Qty"
+      ],
+      "risk_flag": "No negative stock validation found in legacy code"
+    }
+  ]
+}
