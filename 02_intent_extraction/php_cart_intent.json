@@ -1,0 +1,11 @@
+{
+  "domain": "E-commerce",
+  "module": "CartPricing",
+  "extraction_model": "QCA-LGS-v4",
+  "business_rules": [
+    { "condition": "User is VIP", "action": "Apply 15% discount" },
+    { "condition": "Cart Total > 1000", "action": "Apply 5% discount" },
+    { "calculation": "FinalPrice = Total - (Total * Discount)" }
+  ],
+  "security_flags_identified": ["SQL Injection", "Deprecated mysql_* extension", "Logic coupled with UI"]
+}

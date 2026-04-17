@@ -1,0 +1,8 @@
+{
+  "domain": "Banking",
+  "sub_domain": "Deposits",
+  "extraction_model": "QCA-LGS-v4",
+  "captured_formula": "A = P * (1 + r/n)^(nt)",
+  "precision_mapping": "COBOL Fixed-Point -> C# Decimal (28-digit precision)",
+  "compliance_rules": ["Zero principal check", "Interest rounding to 2 decimals"]
+}

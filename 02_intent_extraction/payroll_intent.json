@@ -1,0 +1,10 @@
+{
+  "domain": "Payroll",
+  "logic_type": "TaxCalculation",
+  "formulas": {
+    "PIT": "gross * 0.18",
+    "MilitaryTax": "gross * 0.015",
+    "Net": "gross - (PIT + MilitaryTax)"
+  },
+  "validation": "salary > 0"
+}
