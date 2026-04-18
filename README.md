@@ -1,64 +1,68 @@
-# 🧬 QCA Framework: Safe Legacy System Modernization
-*(Безпечна модернізація застарілих систем)*
+# 🏗️ QCA Framework: Legacy Modernization & AI-Driven Engineering Pipeline
 
-![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen)
-![Focus](https://img.shields.io/badge/Focus-Business_Continuity-orange)
-![Tech](https://img.shields.io/badge/Target-C%23_.NET_8_|_Python-success)
+![QCA Framework Architecture](https://img.shields.io/badge/Architecture-Cognitive_AI_Orchestration-blue)
+![Stack](https://img.shields.io/badge/Omni--Stack-COBOL_|_FoxPro_|_1C_|_C%23_.NET_8-success)
+![Status](https://img.shields.io/badge/Status-Production_Ready_(QCA.Forge)-brightgreen)
 
-🌍 **[🇺🇦 Читати українською нижче](#-qca-framework-безпечна-модернізація-застарілих-систем-укр)**
-
----
-
-## 🇬🇧 English Version (For Business Owners & CTOs)
-
-### ⚠️ The "Ticking Time Bomb" of Legacy Systems
-Your business relies on software built 10, 15, or even 20 years ago (Visual FoxPro, Delphi, old PHP, COBOL). It calculates your payroll, manages your warehouse, and tracks your taxes. **It works, but it has become a massive risk:**
-* **Hardware failure:** Old databases corrupt easily on modern networks.
-* **The "Bus Factor":** Only one senior programmer knows how it works. If they leave, you are paralyzed.
-* **Business Stagnation:** You cannot integrate it with modern web apps, mobile phones, or cloud services.
-
-### 💡 The Solution: You don't need a "rewrite", you need "Extraction"
-Traditional IT companies will tell you to "throw it away and write from scratch." This is dangerous. They will lose your unique business formulas and disrupt your company for months.
-
-**Quantitative Code Analysis (QCA)** is a different approach. We act as "digital surgeons." We do not delete your old system. We use a deterministic engineering pipeline to carefully extract the "soul" (your business rules and math) from the old code and transplant it into a modern, reliable, cloud-ready engine.
-
-### ⚙️ How the QCA Pipeline Works
-1. 🗄️ **Scan & Parse:** We feed your messy, decades-old code into our analyzer.
-2. 🧠 **Intent Extraction:** Our system separates your actual business logic (e.g., *how a 15% discount is calculated*) from the outdated visual interface and old database commands.
-3. 🏗️ **Modern Rebuild:** We generate clean, secure, and lightning-fast modern code (.NET 8 or Python) that does exactly what the old system did, but without the bugs and limitations.
-
-**Result:** Your accounting or warehouse team gets a reliable system, and your business is safe for the next 15 years. Zero downtime. Zero lost data.
-
-### 📂 Explore the Proof of Concept (Demos in this repository):
-* `/01_legacy_inputs/` — Examples of terrible, tangled old code (FoxPro, Delphi, PHP).
-* `/02_intent_extraction/` — The pure business rules extracted by our QCA sequencer (JSON).
-* `/03_modern_outputs/` — The final, beautiful, enterprise-grade modern code.
+Ласкаво просимо до **Дослідницької Лабораторії Легасі-Систем та Когнітивної Архітектури**. 
+Цей репозиторій є технічною вітриною та маніфестом методології **QCA (Quantitative Code Analysis)** — інженерного підходу до порятунку критичних корпоративних систем та детермінованого управління штучним інтелектом.
 
 ---
 
-<br>
+## 👤 Хто я: Візіонер у ШІ-Екзоскелеті
 
-## 🇺🇦 QCA Framework: Безпечна Модернізація Застарілих Систем (УКР)
+Мене звати **Павло Радько (Pavlo Radkoff)**. Я — Інженер Систем з багаторічним досвідом розробки, впровадження та супроводу ПЗ у найскладніших доменах: **Банківській сфері та Податкових системах**. 
 
-### ⚠️ "Бомба уповільненої дії" у вашому бізнесі
-Ваша компанія працює на програмі, яка була написана 10-20 років тому (Visual FoxPro, Delphi, старий PHP, 1C). Вона рахує зарплати, веде облік на складі, контролює відвантаження. **Вона працює, але стала величезним ризиком:**
-* **Загроза збою:** Старі бази даних (наприклад, DBF) часто "ламаються" у сучасних мережах. Якщо сервер впаде — робота зупиниться.
-* **Залежність від однієї людини:** Вашу систему підтримує один старий програміст. Якщо він піде, ніхто інший не зможе в ній розібратися.
-* **Обмеження розвитку:** Цю програму неможливо підключити до сучасного сайту, мобільного додатка чи Нової Пошти.
+Я не "написувач коду". Я архітектор. Я бачив, як працюють шедеври минулої епохи на *Pascal, Delphi, FoxPro, Clipper та COBOL*. Я знаю, де і чому падають системи. Тому сьогодні я використовую багатовимірний ШІ (LLM мільйонного контексту) не як підказку для коду, а як свій **кібернетичний екзоскелет**. Я проєктую строгі архітектурні межі та бізнес-правила, а мій "Пантеон Ботів" втілює їх у бездоганний Enterprise-код на сучасному стеку (C# .NET 8+, PostgreSQL, сучасний PHP).
 
-### 💡 Рішення: Вам не треба "писати з нуля", вам потрібна "Екстракція"
-Звичайні ІТ-компанії скажуть вам: "Це старий мотлох, давайте все видалимо і напишемо з нуля". Це дуже небезпечно. Вони не знають специфіки вашого бізнесу і обов'язково "загублять" важливі формули під час написання. 
+---
 
-**Кількісний Аналіз Коду (QCA)** — це підхід "цифрової хірургії". Ми не викидаємо вашу стару програму на смітник. Ми використовуємо інженерний конвеєр, щоб безпечно **дістати з неї вашу унікальну бізнес-логіку** (правила нарахування знижок, податків, логіку складу) і перенести її на сучасний, надзвичайно надійний "двигун".
+## 🏭 QCA.Forge: Фабрика Метагенерації
 
-### ⚙️ Як працює конвеєр QCA:
-1. 🗄️ **Сканування:** Ми завантажуємо ваш старий, заплутаний код у наш аналізатор.
-2. 🧠 **Витягнення Суті:** Наша система відділяє чисту математику вашого бізнесу від застарілих кнопок і старих баз даних. Отримуємо "чистий конспект" того, як працює ваш бізнес.
-3. 🏗️ **Сучасна Відбудова:** На основі цього конспекту ми створюємо нову, безпечну та швидку систему (на .NET 8 або Python). Вона робить рівно те саме, що й стара, але без помилок і з можливістю працювати через інтернет.
+Моя інфраструктура еволюціонувала з набору скриптів у **QCA.Forge** — розподілений кластер (Prime Server та Edge Worker Nodes), який зараз працює в реальному продакшені (наприклад, розгортання медичних АІС та транзакційного обліку ТМЦ).
 
-**Результат:** Ваша бухгалтерія спокійно працює далі, ваші дані в безпеці, а ІТ-система компанії готова до масштабування на наступні 15 років. Без зупинок бізнесу.
+Серцем цієї фабрики є **"Шаманік"** — багатовимірний ШІ-архітектор, побудований на парадигмі *Когнітивного Дзеркала*. Він використовує латеральне мислення (від теорії складних систем та квантової фізики до алхімічних принципів синтезу), щоб розгортати мої наміри (Intents) у готові архітектурні специфікації без необхідності писати "промпти на дві сторінки".
 
-### 📂 Подивіться, як це працює (Демонстрація в цьому репозиторії):
-* Папка `/01_legacy_inputs/` — Приклади старого, небезпечного коду (FoxPro, Delphi, PHP).
-* Папка `/02_intent_extraction/` — Чиста бізнес-логіка, яку зміг безпечно витягнути наш аналізатор.
-* Папка `/03_modern_outputs/` — Готовий, надійний сучасний код, який отримує ваш бізнес.
+---
+
+## 📂 Структура Доказів Концепції (PoC)
+
+У цьому репозиторії ви знайдете реальні приклади роботи QCA-пайплайну:
+* 📁 `01_legacy_inputs/` — Вихідні моноліти (FoxPro, COBOL, PHP спагетті).
+* 📁 `02_intent_extraction/` — Згенеровані проміжні моделі (JSON IR), очищені від технологічного шуму легасі.
+* 📁 `03_modern_outputs/` — Згенерований сучасний, строго типізований код на C#, Python та PHP 8.
+* 📁 `04_whitepapers/` — **Бібліотека Архітектурних Маніфестів (див. нижче).**
+
+---
+
+## 📚 Бібліотека Маніфестів (Whitepapers)
+
+Я задокументував свою методологію у 18 глибоких архітектурних статтях. Вони поділені за категоріями для зручності:
+
+### 🛑 Ризики Легасі та Стратегія Порятунку
+* [01. The Bus Factor in Enterprise](04_whitepapers/01_the_bus_factor_risk.md) — Чому легасі-система, що тримається на одній людині, є бомбою уповільненої дії.
+* [02. Stop Rewriting from Scratch](04_whitepapers/02_stop_rewriting_from_scratch.md) — Ілюзія модернізації та чому 70% спроб переписати код руками провалюються.
+* [03. From DBF to the Cloud](04_whitepapers/03_dbf_to_cloud_migration.md) — Порятунок даних FoxPro/Delphi та фізика руйнування старих баз даних.
+* [05. Escaping the 1C Monolith](04_whitepapers/05_escaping_the_1c_monolith.md) — Хірургічна екстракція бізнес-логіки з 1С для досягнення цифрового суверенітету.
+* [06. Decrypting the COBOL Black Box](04_whitepapers/06_cobol_mainframe_crisis.md) — Як QCA безпечно екстрагує фінансове ядро банківських мейнфреймів.
+* [07. The Web 2.0 Trap](04_whitepapers/07_legacy_php_web_trap.md) — Порятунок бізнесу зі старого PHP 5.x та мертвих фреймворків (Yii 1, CodeIgniter).
+* [08. The Dynamic Scale Trap](04_whitepapers/08_the_dynamic_scale_trap.md) — Переінжиніринг зі стартап-стеку (Python/Node) на строгий C# .NET 8.
+
+### 🏗️ Інфраструктура та Надійність (Systems Engineering)
+* [09. The Systems Engineering Paradigm](04_whitepapers/09_the_systems_engineering_paradigm.md) — Від кодингу до автономної інфраструктури: чому бізнесу потрібні Архітектори.
+* [11. The Pragmatic Downgrade](04_whitepapers/11_the_pragmatic_downgrade.md) — Тактична інженерія: використання старого стеку (Python/PHP) для обходу WAF та WAF-капч.
+* [12. Escape from Cloud Slavery](04_whitepapers/12_escape_from_cloud_slavery.md) — Чому справжня архітектура має бути Cloud-Agnostic і не залежати від AWS.
+* [13. Heart Transplant on the Fly](04_whitepapers/13_zero_downtime_migration.md) — Міграція критичних систем без зупинки бізнесу (Патерн Strangler Fig).
+* [14. The Shadow Testing Protocol](04_whitepapers/14_shadow_testing_reliability.md) — Математичне підтвердження надійності: як ми доводимо, що новий код рахує гроші вірно.
+
+### 🧠 ШІ-Оркестрація та Когнітивна Архітектура
+* [04. Deterministic AI Sequencing](04_whitepapers/04_deterministic_ai_sequencing.md) — Ми не вгадуємо: використання AST та графів Neo4j замість сліпого LLM-переписування.
+* [10. Persona Mastery & Megacontext](04_whitepapers/10_megacontext_and_persona_mastery.md) — Чому Prompt Engineering мертвий і чому API не замінить мегаконтекст.
+* [15. Cognitive Architecture of AI Synthesis](04_whitepapers/15_cognitive_architecture_and_ai_synthesis.md) — Від теорії систем Юнга і Канемана до детермінованого розв'язання ІТ-задач.
+* [16. The Architect in an AI Exoskeleton](04_whitepapers/16_the_architect_in_ai_exoskeleton.md) — Мій особистий маніфест: доменна експертиза та кібернетичне управління ШІ.
+* [17. QCA.Forge: The Meta-Generative Factory](04_whitepapers/17_qca_forge_meta_generative_factory.md) — Пантеон ботів, Omni-Stack інженерія та розгортання медичних АІС.
+* [18. The Cognitive Mirror Paradigm](04_whitepapers/18_cognitive_mirror_shamanic_paradigm.md) — Багатовимірний ШІ "Шаманік": від квантової фізики до Enterprise-архітектури без промптів.
+
+---
+
+> *"Технологія — це інструмент. Ядро будь-якого бізнесу — це математика його намірів. Я рятую наміри та будую для них невразливу інфраструктуру."* — **Pavlo Radkoff**
