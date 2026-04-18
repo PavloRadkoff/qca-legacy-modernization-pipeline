@@ -1,6 +1,3 @@
-# Title Placeholder
-
-Article content will be added here.
 # Whitepaper 02: Stop Rewriting from Scratch 
 ### Ілюзія "чистого аркуша" та чому переписування легасі з нуля знищує корпоративні бюджети
 

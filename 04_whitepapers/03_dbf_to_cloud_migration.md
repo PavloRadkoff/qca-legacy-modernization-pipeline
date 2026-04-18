@@ -1,6 +1,3 @@
-# Title Placeholder
-
-Article content will be added here.
 # Whitepaper 03: From DBF to the Cloud 
 ### Порятунок даних FoxPro та Delphi: Чому файлові бази руйнують ваш бізнес і як безпечно перейти на PostgreSQL
 

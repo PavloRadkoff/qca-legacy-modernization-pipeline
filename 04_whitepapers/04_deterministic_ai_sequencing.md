@@ -1,6 +1,3 @@
-# Title Placeholder
-
-Article content will be added here.
 # Whitepaper 04: Deterministic AI — We Don't Guess, We Sequence
 ### Чому генеративний ШІ не підходить для легасі-міграції, і як графи Neo4j гарантують нульовий рівень галюцинацій
 
