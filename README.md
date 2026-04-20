@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Production_Ready_(QCA.Forge)-brightgreen)
 
 Ласкаво просимо до **Дослідницької Лабораторії Легасі-Систем та Когнітивної Архітектури**. 
-Цей репозиторій є технічною вітриною та маніфестом методології **QCA (Quantitative Code Analysis)** — інженерного підходу до порятунку критичних корпоративних систем та детермінованого управління штучним інтелектом.
+Цей репозиторій є технічною вітриною та маніфестом методології **QCA (Quantitative Code Analysis)** — інженерного підходу до порятунку критичних корпоративних систем, розгортання автономної інфраструктури та детермінованого управління штучним інтелектом.
 
 ---
 
@@ -21,7 +21,7 @@
 
 Моя інфраструктура еволюціонувала з набору скриптів у **QCA.Forge** — розподілений кластер (Prime Server та Edge Worker Nodes), який зараз працює в реальному продакшені (наприклад, розгортання медичних АІС та транзакційного обліку ТМЦ).
 
-Серцем цієї фабрики є **"Шаманік"** — багатовимірний ШІ-архітектор, побудований на парадигмі *Когнітивного Дзеркала*. Він використовує латеральне мислення (від теорії складних систем та квантової фізики до алхімічних принципів синтезу), щоб розгортати мої наміри (Intents) у готові архітектурні специфікації без необхідності писати "промпти на дві сторінки".
+Серцем цієї фабрики є **"Шаманік"** — багатовимірний ШІ-архітектор, побудований на парадигмі *Когнітивного Дзеркала*. Він використовує латеральне мислення (від теорії складних систем та квантової фізики до алхімічних принципів синтезу), щоб розгортати мої наміри (Intents) у готові архітектурні специфікації без необхідності писати "промпти на дві сторінки". А власне ізольоване Git-сховище та локальні векторні бази гарантують 100% захист інтелектуальної власності.
 
 ---
 
@@ -37,7 +37,7 @@
 
 ## 📚 Бібліотека Маніфестів (Whitepapers)
 
-Я задокументував свою методологію у 18 глибоких архітектурних статтях. Вони поділені за категоріями для зручності:
+Я задокументував свою методологію у 30 глибоких архітектурних статтях. Вони поділені за категоріями для зручності:
 
 ### 🛑 Ризики Легасі та Стратегія Порятунку
 * [01. The Bus Factor in Enterprise](04_whitepapers/01_the_bus_factor_risk.md) — Чому легасі-система, що тримається на одній людині, є бомбою уповільненої дії.
@@ -48,12 +48,19 @@
 * [07. The Web 2.0 Trap](04_whitepapers/07_legacy_php_web_trap.md) — Порятунок бізнесу зі старого PHP 5.x та мертвих фреймворків (Yii 1, CodeIgniter).
 * [08. The Dynamic Scale Trap](04_whitepapers/08_the_dynamic_scale_trap.md) — Переінжиніринг зі стартап-стеку (Python/Node) на строгий C# .NET 8.
 
-### 🏗️ Інфраструктура та Надійність (Systems Engineering)
+### 🏗️ Інфраструктура, Безпека та Надійність
 * [09. The Systems Engineering Paradigm](04_whitepapers/09_the_systems_engineering_paradigm.md) — Від кодингу до автономної інфраструктури: чому бізнесу потрібні Архітектори.
 * [11. The Pragmatic Downgrade](04_whitepapers/11_the_pragmatic_downgrade.md) — Тактична інженерія: використання старого стеку (Python/PHP) для обходу WAF та WAF-капч.
 * [12. Escape from Cloud Slavery](04_whitepapers/12_escape_from_cloud_slavery.md) — Чому справжня архітектура має бути Cloud-Agnostic і не залежати від AWS.
 * [13. Heart Transplant on the Fly](04_whitepapers/13_zero_downtime_migration.md) — Міграція критичних систем без зупинки бізнесу (Патерн Strangler Fig).
 * [14. The Shadow Testing Protocol](04_whitepapers/14_shadow_testing_reliability.md) — Математичне підтвердження надійності: як ми доводимо, що новий код рахує гроші вірно.
+* [19. The Dirty Data Paradox](04_whitepapers/19_the_dirty_data_paradox.md) — Чому строгий C# ламається на "брудних" даних, і як Python рятує Enterprise-міграції.
+* [20. The Bare-Metal Genesis](04_whitepapers/20_server_as_a_project_bare_metal.md) — Чому сервер — це інженерний проєкт: Фундамент, масиви та ізоляція на рівні Linux.
+* [21. The Network Nervous System](04_whitepapers/21_network_topology_and_security_hardening.md) — Мережева архітектура: Від ізоляції Docker-контейнерів до залізного щита Nginx.
+* [22. The OS Agnosticism Protocol](04_whitepapers/22_the_os_agnosticism_protocol.md) — Інженерна дипломатія: Чому ми поважаємо і Windows, і Linux, та як будуємо симбіоз.
+* [26. The Tactical "Surzhyk"](04_whitepapers/26_the_tactical_surzhyk_bots.md) — Архітектура бот-мереж: Чому гібрид PHP та Python перемагає C# у війні з Антифродом.
+* [27. The PowerShell Orchestration](04_whitepapers/27_powershell_infrastructure_orchestration.md) — Від ручної праці до скриптового диригування: Як PowerShell автоматизує QCA.Forge.
+* [28. The Sovereign Code Vault](04_whitepapers/28_the_sovereign_code_vault.md) — Цифровий суверенітет: Власний Git-сервер, векторні бази та захист інтелектуальної власності.
 
 ### 🧠 ШІ-Оркестрація та Когнітивна Архітектура
 * [04. Deterministic AI Sequencing](04_whitepapers/04_deterministic_ai_sequencing.md) — Ми не вгадуємо: використання AST та графів Neo4j замість сліпого LLM-переписування.
@@ -61,7 +68,12 @@
 * [15. Cognitive Architecture of AI Synthesis](04_whitepapers/15_cognitive_architecture_and_ai_synthesis.md) — Від теорії систем Юнга і Канемана до детермінованого розв'язання ІТ-задач.
 * [16. The Architect in an AI Exoskeleton](04_whitepapers/16_the_architect_in_ai_exoskeleton.md) — Мій особистий маніфест: доменна експертиза та кібернетичне управління ШІ.
 * [17. QCA.Forge: The Meta-Generative Factory](04_whitepapers/17_qca_forge_meta_generative_factory.md) — Пантеон ботів, Omni-Stack інженерія та розгортання медичних АІС.
-* [18. The Cognitive Mirror Paradigm](04_whitepapers/18_cognitive_mirror_shamanic_paradigm.md) — Багатовимірний ШІ "Шаманік": від квантової фізики до Enterprise-архітектури без промптів.
+* [18. The Cognitive Mirror Paradigm](04_whitepapers/18_cognitive_mirror_shamanic_paradigm.md) — Багатовимірний ШІ "Шаманік": від квантової фізики до Enterprise-архітектури.
+* [23. The Compilation Crucible](04_whitepapers/23_the_compilation_crucible.md) — Від ШІ-креслення до C# коду: Синергія людини і машини, строгість компілятора та Visual Studio.
+* [24. The Artifact-Driven Economics](04_whitepapers/24_the_artifact_driven_economics.md) — Чому ручний "копіпаст" ШІ-коду коштує дорожче, ніж повна регенерація Артефакту.
+* [25. The Slow AI Paradigm](04_whitepapers/25_the_slow_ai_paradigm_and_karmic_shadow.md) — Шар "Karmic Shadow": Чому бездоганна генерація вимагає хвилин, а не секунд.
+* [29. The AI Native Tongue](04_whitepapers/29_the_ai_native_tongue_strictness_paradox.md) — Парадокс Свободи: Чому ШІ галюцинує в Python і геніально пише на строгому C#.
+* [30. The .NET Iceberg & Razor Beauty](04_whitepapers/30_the_dotnet_iceberg_and_razor_beauty.md) — Естетика C#: Чому коду мало, система складна, а скомпільований файл важить 80 мегабайтів.
 
 ---
 
