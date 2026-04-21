@@ -57,7 +57,7 @@
 * [33. Syntax of Magic: The AI Pantheon](04_whitepapers/33-syntax-of-magic-ai-pantheon.md) — Синтаксис Магії: Програміст як Заклинатель ШІ-Пантеону.
 * [34. Digital Alchemy: Transmutation](04_whitepapers/34-digital-alchemy-transmutation.md) — Цифрова Алхімія: Трансмутація свинцю у золото (Від 1С до C#).
 * [35. Alchemists of the 21st Century](04_whitepapers/35-alchemists-21st-century-augmented-architect.md) — Алхіміки 21 століття: Архітектор у ШІ-Екзоскелеті.
-* [36. Metaphysics of Modernization](04_whitepapers/36-metaphysics-of-modernization-digital-soul.md) — Метафізика модернізації: Чому код має Душу.### 🔮  
+* [36. Metaphysics of Modernization](04_whitepapers/36-metaphysics-of-modernization-digital-soul.md) — Метафізика модернізації: Чому код має Душу.
 
 ### 🛑 Ризики Легасі та Стратегія Порятунку
 * [01. The Bus Factor in Enterprise](04_whitepapers/01_the_bus_factor_risk.md) — Чому легасі-система, що тримається на одній людині, є бомбою уповільненої дії.
