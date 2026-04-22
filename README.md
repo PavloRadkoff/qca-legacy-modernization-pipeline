@@ -8,6 +8,10 @@
 Цей репозиторій є технічною вітриною та маніфестом методології **QCA (Quantitative Code Analysis)** — інженерного підходу до порятунку критичних корпоративних систем, розгортання автономної інфраструктури та детермінованого управління штучним інтелектом.
 
 ---
+# 🚀 QCA Legacy Modernization Pipeline
+
+[![Architecture EN](https://img.shields.io/badge/Architecture-Enterprise_EN-blue?style=for-the-badge&logo=architecture)](./ENTERPRISE_ARCHITECTURE.md)
+[![Architecture UA](https://img.shields.io/badge/Архітектура-Enterprise_UA-yellow?style=for-the-badge&logo=target)](./ENTERPRISE_ARCHITECTURE_UK.md)
 
 ## 👤 Хто я: Візіонер у ШІ-Екзоскелеті
 
