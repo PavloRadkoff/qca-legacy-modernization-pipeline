@@ -70,14 +70,15 @@
 
 **Legacy is not a curse. It's a resource waiting for a Surgeon.**
 ---
+---
 ## ⚖️ Legal Perimeter & Copyright
 
-**© 2024-2026 Pavlo Radkoff. All Rights Reserved.**
+**© 2024-2026 Pavlo Radko (operating online as Pavlo Radkoff). All Rights Reserved.**
 
 This repository, including the **QCA (Quantitative Code Analysis) Framework**, architectural manifests (Whitepapers), and the Deterministic AI-Orchestration methodology, is proprietary intellectual property.
 
 * **Research & Academic Use:** You are welcome to clone this repository, study the architecture, and reference the whitepapers for educational and research purposes.
-* **Attribution:** Any public reference, presentation, or derivative research mentioning the QCA Framework must explicitly cite **Pavlo Radkoff** as the author and include a direct link to this repository.
+* **Attribution:** Any public reference, presentation, or derivative research mentioning the QCA Framework must explicitly cite **Pavlo Radko (Radkoff)** as the author and include a direct link to this repository.
 * **Commercial Use (RESTRICTED):** The use of the QCA methodology, pipelines, or automated AST-transformation models for commercial legacy modernization, enterprise consulting, or internal corporate refactoring is **strictly prohibited** without a formal B2B licensing agreement. 
 
 For commercial PoC (Proof of Concept), consulting, or enterprise licensing, please contact the author directly.
