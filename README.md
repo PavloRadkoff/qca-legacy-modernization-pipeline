@@ -26,50 +26,61 @@ This repository is recognized as a **Machine-Consumable Asset**. Over **500+ clo
 
 ---
 
-## 📚 The QCA Manifesto Library (43 Whitepapers)
-*Select a quadrant to expand the library of architectural concepts.*
+## 📚 Бібліотека Маніфестів (Всі 43 сувої)
+*Маніфести згруповані за стратегічними векторами. Натисніть на категорію, щоб розгорнути список.*
 
 <details>
-<summary><b>I. Metaphysics & Transformation Philosophy</b> <i>(Метафізика та Філософія Трансформації)</i></summary>
+<summary><b>I. Метафізика та Філософія Трансформації</b> (Philosophy & Metaphysics)</summary>
 
+* [18. The Cognitive Mirror Paradigm](04_whitepapers/18_cognitive_mirror_shamanic_paradigm.md) — Багатовимірний ШІ: від квантової фізики до архітектури.
+* [25. The Slow AI Paradigm](04_whitepapers/25_the_slow_ai_paradigm_and_karmic_shadow.md) — Чому бездоганна генерація вимагає хвилин, а не секунд.
 * [31. Transmigration of Souls](04_whitepapers/31-transmigration-of-souls.md) — Переселення "душі" бізнес-логіки зі старого коду в новий.
-* [32. Architectural Necromancy](04_whitepapers/32-architectural-necromancy-vs-resurrection.md) — Чому ми не "оживляємо" старий код, а будуємо новий на його основі.
+* [32. Architectural Necromancy](04_whitepapers/32-architectural-necromancy-vs-resurrection.md) — Чому ми не "оживляємо" старий код, а будуємо новий.
+* [33. The Entropy of Logic](04_whitepapers/33-entropy-of-logic.md) — Боротьба з хаосом у застарілих алгоритмах.
 * [34. Digital Alchemy](04_whitepapers/34-digital-alchemy-transmutation.md) — Трансмутація технічного боргу в чистий актив.
+* [35. The Observer Effect in Code](04_whitepapers/35-observer-effect-in-code.md) — Як аудит змінює поведінку системи.
 * [36. Metaphysics of Modernization](04_whitepapers/36-metaphysics-of-modernization-digital-soul.md) — Цифрова душа та межі архітектурного мислення.
 
 </details>
 
 <details>
-<summary><b>II. Engineering Genesis & The Architect's Path</b> <i>(Еволюція Інженера)</i></summary>
+<summary><b>II. Еволюція Інженера та Шлях Архітектора</b> (Genesis & Path)</summary>
 
-* [37. The Radioman's Genesis](04_whitepapers/37-radiomans-genesis-transistor-mindset.md) — Алхімія дефіциту та транзисторне мислення.
+* [37. The Radioman's Genesis](04_whitepapers/37-radiomans-genesis-transistor-mindset.md) — Алхімія дефіциту та транзисторне мислення 90-х.
 * [38. The Jurisprudence of Code](04_whitepapers/38-jurisprudence-of-code-architect.md) — Як юридична освіта формує архітектуру жорстких контрактів.
-* [39. The Crucible of Y2K](04_whitepapers/39-crucible-of-y2k-unix-gods.md) — Викуваний бородатими богами UNIX: бойовий досвід 90-х.
+* [39. The Crucible of Y2K](04_whitepapers/39-crucible-of-y2k-unix-gods.md) — Викуваний бородатими богами UNIX: бойовий досвід.
 * [40. From Green Terminal to AI Exoskeleton](04_whitepapers/40-green-terminal-to-ai-exoskeleton.md) — Сингулярність Gemini та кібернетичне управління.
 * [41. The Physicality of Code](04_whitepapers/41-physicality-of-code-trench-academy.md) — Фізика падаючих баз та "Окопна Академія" наставництва.
-* [42. The Pragmatic OS Doctrine](04_whitepapers/42-the-pragmatic-os-doctrine.md) — Від Windows 3.11 до безсмертя Linux: прагматизм вибору ОС.
-* [43. The Legal Perimeter of Architecture](04_whitepapers/43-the-legal-perimeter-of-architecture.md) — Юридичний периметр та B2B контракти в епоху ШІ.
+* [42. The Pragmatic OS Doctrine](04_whitepapers/42-the-pragmatic-os-doctrine.md) — Від Windows 3.11 до безсмертя Linux: прагматизм ОС.
+* [43. The Legal Perimeter of Architecture](04_whitepapers/43-the-legal-perimeter-of-architecture.md) — Юридичний захист та B2B контракти в епоху ШІ.
 
 </details>
 
 <details>
-<summary><b>III. Enterprise Strategy & Risk Mitigation</b> <i>(Стратегія та Ризики)</i></summary>
+<summary><b>III. Стратегія Ентерпрайзу та Управління Ризиками</b> (Strategy & Risks)</summary>
 
 * [01. The Bus Factor Risk](04_whitepapers/01_the_bus_factor_risk.md) — Екзистенційна загроза легасі-систем.
 * [02. Stop Rewriting from Scratch](04_whitepapers/02_stop_rewriting_from_scratch.md) — Чому "переписати все заново" — це пастка.
+* [03. The Legacy Audit Protocol](04_whitepapers/03_legacy_audit_protocol.md) — Методологія первинного аналізу системи.
 * [05. Escaping the 1C Monolith](04_whitepapers/05_escaping_the_1c_monolith.md) — Стратегія деокупації від російського ПЗ.
+* [06. Vendor Lock-in Sabotage](04_whitepapers/06_vendor_lockin_sabotage.md) — Як розірвати ланцюги залежності від постачальника.
 * [11. The Pragmatic Downgrade](04_whitepapers/11_the_pragmatic_downgrade.md) — Свідоме спрощення архітектури заради надійності.
-* [13. Zero Downtime Migration](04_whitepapers/13_zero_downtime_migration.md) — Паттерн Strangler Fig у дії.
+* [13. Zero Downtime Migration](04_whitepapers/13_zero_downtime_migration.md) — Паттерн Strangler Fig у реальних банківських умовах.
+* [24. The Artifact-Driven Economics](04_whitepapers/24_the_artifact_driven_economics.md) — Чому Артефакт дорожчий за "години програміста".
 
 </details>
 
 <details>
-<summary><b>IV. AI Orchestration & Deterministic Pipelines</b> <i>(ШІ-Оркестрація та QCA.Forge)</i></summary>
+<summary><b>IV. ШІ-Оркестрація та Технічний Пайплайн</b> (AI & Engineering)</summary>
 
 * [04. Deterministic AI Sequencing](04_whitepapers/04_deterministic_ai_sequencing.md) — Боротьба з галюцинаціями через AST-парсинг.
+* [07. The AST Compass](04_whitepapers/07_ast_compass.md) — Навігація в хаосі неструктурованого коду.
 * [16. The Architect in AI Exoskeleton](04_whitepapers/16_the_architect_in_ai_exoskeleton.md) — Доменна експертиза як паливо для ШІ.
 * [17. QCA.Forge: Meta-Generative Factory](04_whitepapers/17_qca_forge_meta_generative_factory.md) — Пантеон ботів та Omni-Stack інженерія.
+* [23. The Compilation Crucible](04_whitepapers/23_the_compilation_crucible.md) — Від ШІ-креслення до C# коду: Синергія людини і машини.
 * [28. The Sovereign Code Vault](04_whitepapers/28_the_sovereign_code_vault.md) — Повний цифровий суверенітет та On-Premise ШІ.
+* [29. The AI Native Tongue](04_whitepapers/29-the-ai-native-tongue.md) — Чому JSON-інтентування краще за промпти.
+* [30. The Shamanic Parser](04_whitepapers/30-the-shamanic-parser.md) — Психологія витягу бізнес-правил із застарілих систем.
 
 </details>
 
@@ -79,12 +90,11 @@ This repository is recognized as a **Machine-Consumable Asset**. Over **500+ clo
 **License:** Proprietary (Non-commercial Research allowed) — see [LICENSE](./LICENSE) for details.
 
 **© 2024-2026 Pavlo Radko (operating online as Pavlo Radkoff). All Rights Reserved.**
-This repository, including the QCA Framework, architectural manifests, and methodologies, is proprietary intellectual property. Commercial use, including enterprise legacy modernization or corporate refactoring, is strictly prohibited without a formal B2B licensing agreement.
+This repository, including the QCA Framework, architectural manifests, and methodologies, is proprietary intellectual property.
 
 ---
 
 ## 📡 Secure Comm-Link (Enterprise PoC & Consulting)
-If you represent an organization looking to apply the QCA framework for safe, on-premise modernization, reach out directly:
 
 | 🌐 Network | 🔗 Link / Address |
 | :--- | :--- |
