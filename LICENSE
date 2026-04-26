@@ -1,12 +1,21 @@
----
-## ⚖️ Legal Perimeter & Copyright
+Copyright (c) 2024-2026 Pavlo Radko (operating online as Pavlo Radkoff). All Rights Reserved.
 
-**© 2024-2026 Pavlo Radko (operating online as Pavlo Radkoff). All Rights Reserved.**
+PROPRIETARY LICENSE - QCA FRAMEWORK
 
-This repository, including the **QCA (Quantitative Code Analysis) Framework**, architectural manifests (Whitepapers), and the Deterministic AI-Orchestration methodology, is proprietary intellectual property.
+This repository, including the QCA (Quantitative Code Analysis) Framework, architectural manifests (whitepapers), associated code, models, and transformation pipelines, is the proprietary intellectual property of Pavlo Radko.
 
-* **Research & Academic Use:** You are welcome to clone this repository, study the architecture, and reference the whitepapers for educational and research purposes.
-* **Attribution:** Any public reference, presentation, or derivative research mentioning the QCA Framework must explicitly cite **Pavlo Radko (Radkoff)** as the author and include a direct link to this repository.
-* **Commercial Use (RESTRICTED):** The use of the QCA methodology, pipelines, or automated AST-transformation models for commercial legacy modernization, enterprise consulting, or internal corporate refactoring is **strictly prohibited** without a formal B2B licensing agreement. 
+1. PERMITTED USE:
+- Non-commercial research, academic study, and personal evaluation are permitted.
+- Attribution to Pavlo Radko (Radkoff) and a direct link to this repository are mandatory for any public reference or derivative research.
 
-For commercial PoC (Proof of Concept), consulting, or enterprise licensing, please contact the author directly.
+2. RESTRICTIONS:
+- Commercial use, including but not limited to enterprise legacy modernization, commercial consulting, internal corporate refactoring, or integration into commercial software products, is STRICTLY PROHIBITED without a formal, written B2B license agreement.
+- Redistribution, sublicensing, or selling any part of this framework is prohibited.
+
+3. NO WARRANTY:
+- This software and documentation are provided "as is", without warranty of any kind, express or implied.
+
+4. CONTACT FOR LICENSING:
+- For commercial licensing inquiries, Proof of Concept (PoC) requests, or enterprise consulting, please contact the author via GitHub or the contact methods listed in the README.md.
+
+Any use of this repository constitutes acceptance of these terms.
