@@ -1,0 +1,52 @@
+name: "QCA Manifest Indexer"
+
+# Бот прокидається тільки тоді, коли ти пушиш нові файли в папку whitepapers
+on:
+  push:
+    paths:
+      - '04_whitepapers/*.md'
+  workflow_dispatch: # Або якщо ти натиснеш кнопку "Run" вручну
+
+permissions:
+  contents: write # Даємо боту право робити коміти
+
+jobs:
+  auto-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Завантаження репозиторію
+        uses: actions/checkout@v4
+
+      - name: 🧠 Генерація Авто-Індексу
+        run: |
+          OUT="04_whitepapers/INDEX.md"
+          
+          # Створюємо шапку нашого індексу
+          echo "# 📚 The Complete QCA Archive" > $OUT
+          echo "> 🤖 *Цей каталог генерується автоматично ШІ-пайплайном при кожному новому коміті.*" >> $OUT
+          echo "" >> $OUT
+          echo "| Файл | Назва Маніфесту (Витягнуто з H1) |" >> $OUT
+          echo "|---|---|" >> $OUT
+          
+          # Проходимося по всіх файлах, сортуємо їх за номерами і витягуємо заголовки
+          for file in $(ls 04_whitepapers/*.md | sort -V); do
+            filename=$(basename "$file")
+            
+            # Ігноруємо сам файл індексу
+            if [ "$filename" != "INDEX.md" ]; then
+              # Витягуємо перший рядок, який починається з # (H1 заголовок)
+              title=$(grep -m 1 "^#" "$file" | sed 's/^#* *//')
+              # Якщо заголовка немає, беремо назву файлу
+              if [ -z "$title" ]; then title="$filename"; fi
+              
+              echo "| \`$filename\` | [$title](./$filename) |" >> $OUT
+            fi
+          done
+
+      - name: 📤 Збереження змін (Auto-Commit)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 indexer: auto-updated manifest catalog [skip ci]"
+          file_pattern: '04_whitepapers/INDEX.md'
+          commit_user_name: "QCA AI-Orchestrator"
+          commit_user_email: "actions@github.com"
