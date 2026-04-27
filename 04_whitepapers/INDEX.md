@@ -47,3 +47,4 @@
 | `42-the-pragmatic-os-doctrine.md` | [Whitepaper 42: The Pragmatic OS Doctrine ](./42-the-pragmatic-os-doctrine.md) |
 | `43-the-legal-perimeter-of-architecture.md` | [Whitepaper 43: The Legal Perimeter of Architecture](./43-the-legal-perimeter-of-architecture.md) |
 | `44-the-self-indexing-matrix.md` | [Whitepaper 44: The Self-Indexing Matrix](./44-the-self-indexing-matrix.md) |
+| `45-the-enterprise-illusion-and-digital-serfdom.md` | [45-the-enterprise-illusion-and-digital-serfdom.md](./45-the-enterprise-illusion-and-digital-serfdom.md) |
