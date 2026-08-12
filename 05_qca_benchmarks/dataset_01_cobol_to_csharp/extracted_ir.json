@@ -1,0 +1,42 @@
+{
+  "qca_ir_version": "1.4",
+  "domain": "Core Banking",
+  "module": "Interest Calculation",
+  "intent_type": "Deterministic Math",
+  "data_types": {
+    "WS-BALANCE": "Decimal (Precision 9, Scale 2)",
+    "WS-INTEREST-RATE": "Decimal (Precision 0, Scale 4)"
+  },
+  "business_rules": [
+    {
+      "condition": "Balance <= 0",
+      "action": "Interest = 0, Exit"
+    },
+    {
+      "condition": "AccountType == 'S'",
+      "action": "Set Rate = 0.0350"
+    },
+    {
+      "condition": "AccountType == 'C'",
+      "action": "Set Rate = 0.0125"
+    },
+    {
+      "condition": "Default",
+      "action": "Set Rate = 0.0000"
+    }
+  ],
+  "operations": [
+    {
+      "type": "Arithmetic",
+      "formula": "CalculatedInterest = Round(Balance * Rate, 2)"
+    },
+    {
+      "type": "StateUpdate",
+      "formula": "Balance += CalculatedInterest"
+    }
+  ],
+  "safety_constraints": [
+    "Strict decimal precision required",
+    "Banker's rounding (Half-Even) mandatory"
+  ]
+}

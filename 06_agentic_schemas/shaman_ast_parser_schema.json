@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Shaman Intermediate Representation (IR)",
+  "description": "Strict schema for legacy code intent extraction.",
+  "type": "object",
+  "properties": {
+    "module_name": {
+      "type": "string",
+      "description": "The business domain name of the extracted legacy module."
+    },
+    "legacy_language": {
+      "type": "string",
+      "enum": ["COBOL", "FoxPro", "PHP_5", "Delphi"]
+    },
+    "extracted_variables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "legacy_name": { "type": "string" },
+          "inferred_type": { "type": "string" },
+          "business_meaning": { "type": "string" }
+        },
+        "required": ["legacy_name", "inferred_type"]
+      }
+    },
+    "business_rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "condition": { "type": "string" },
+          "operation": { "type": "string" },
+          "criticality": { "type": "string", "enum": ["Low", "Medium", "High", "Critical"] }
+        },
+        "required": ["condition", "operation", "criticality"]
+      }
+    }
+  },
+  "required": ["module_name", "legacy_language", "extracted_variables", "business_rules"]
+}

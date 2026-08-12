@@ -1,0 +1,24 @@
+# QCA Framework: Legacy Modernization & AI-Driven Engineering Pipeline
+
+> QCA (Quantitative Code Analysis) is an enterprise-grade, deterministic AI compiler pipeline designed to modernize legacy monoliths (COBOL, FoxPro, 1C, old PHP) into secure, strictly-typed C# .NET 8 microservices without losing business logic.
+
+## 🏛️ Core Architecture & Philosophy
+- **Digital Sovereignty (100% On-Premise):** Designed for bare-metal servers or isolated Docker clusters. No core intellectual property leaves the corporate perimeter.
+- **Deterministic AST Parsing:** Code is never fed as raw text to LLMs. It is parsed into Abstract Syntax Trees (AST) and transformed into strict Intermediate Representation (IR) JSON models.
+- **The Pantheon of AI Agents:** Orchestration of specialized expert personas ("The Shaman", "The Blacksmith", "The Chronicler") operating under strict system constraints (Temperature 0.1 - 0.2).
+- **The Pragmatic Downgrade:** Using tactical legacy tech (Python/PHP) for edge scraping and data sanitization, while maintaining a pure C# .NET 8 transactional core.
+
+## 📂 Key Documentation & Manifests
+- [Executive Summary](./EXECUTIVE_SUMMARY.md): 1-Page B2B overview, ROI, and risk mitigation.
+- [Enterprise Architecture (EN)](./ENTERPRISE_ARCHITECTURE.md): Deep dive into the QCA Polyglot Factory.
+- [Enterprise Architecture (UA)](./ENTERPRISE_ARCHITECTURE_UK.md): Український огляд базових принципів платформи.
+- [Complete Whitepaper Library](./04_whitepapers/INDEX.md): 45+ deep-dive manifests on metaphysics, systems engineering, and AI orchestration.
+
+## 📊 Benchmarks & Schemas
+- [QCA Benchmark Dataset](./05_qca_benchmarks/README.md): Machine-consumable datasets for legacy-to-modern code translation evaluation.
+- [Agentic Schemas](./06_agentic_schemas/README.md): Strict Pydantic/JSON schemas for multi-agent orchestration.
+- [eBPF Shadow Sentinel](./07_ebpf_shadow_sentinel/README.md): Kernel-level telemetry for zero-overhead migration verification.
+
+## ⚖️ Legal & Licensing
+- **Proprietary (Dual Licensing):** Academic research and personal evaluation are permitted. Commercial use, enterprise modernization, or internal corporate refactoring strictly require a formal B2B agreement with the author.
+- **Author:** Pavlo Radko (operating online as Pavlo Radkoff).
